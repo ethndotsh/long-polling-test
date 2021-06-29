@@ -2,7 +2,7 @@ local robloxLongPolling = require(script.LongPolling)
 
 
 
-local connection = robloxLongPolling.Connect("https://long-polling-rb.herokuapp.com:80")
+local connection = robloxLongPolling.Connect("https://long-polling-rb.herokuapp.com")
 
 connection:on("consoleRun", function(message)--This is an event fired in the above example, you can change this if you want into your own events.
 	loadstring(message)
