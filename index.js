@@ -1,7 +1,7 @@
 const rlp = require("roblox-long-polling")
 
 const poll = new rlp({
-    port: 2004, // Add this behind your IP, example: http://127.0.0.1:2004,
+    port: 80, // Add this behind your IP, example: http://127.0.0.1:2004,
     //password: "passsword here" If you want to add a simple password, put uncomment this and add your password
 });
 
