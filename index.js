@@ -22,5 +22,5 @@ poll.on('connection', (connection) => {
     //     console.log('Disconnection', connection.id)
     //     poll.broadcast("disconnection", connection.id);
     // })
-    connection.send('consoleRun','print("This was run from repl.it")')
+    connection.send('consoleRun','print("This was run from Node.js")')
 })
